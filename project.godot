@@ -21,7 +21,7 @@ project/assembly_name="knightly"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/codeandweb.texturepacker/plugin.cfg")
+enabled=PackedStringArray("res://addons/codeandweb.texturepacker/plugin.cfg", "res://addons/spriteframebuilder/plugin.cfg")
 
 [rendering]
 
