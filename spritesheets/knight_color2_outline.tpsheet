@@ -1,0 +1,2253 @@
+{
+	"textures": [
+		{
+			"image": "knight_color2_outline.png",
+			"size": {
+				"w": 393,
+				"h": 393
+			},
+			"sprites": [
+				{
+					"filename": "Knight_Attack2NoMovement_02.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 79,
+						"h": 42
+					},
+					"margin": {
+						"x": 26,
+						"y": 38,
+						"w": 41,
+						"h": 38
+					}
+				},
+				{
+					"filename": "Knight_AttackComboNoMovement_06.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 79,
+						"h": 42
+					},
+					"margin": {
+						"x": 26,
+						"y": 38,
+						"w": 41,
+						"h": 38
+					}
+				},
+				{
+					"filename": "Knight_Attack2_02.png",
+					"region": {
+						"x": 1,
+						"y": 45,
+						"w": 79,
+						"h": 42
+					},
+					"margin": {
+						"x": 32,
+						"y": 38,
+						"w": 41,
+						"h": 38
+					}
+				},
+				{
+					"filename": "Knight_AttackCombo_06.png",
+					"region": {
+						"x": 1,
+						"y": 45,
+						"w": 79,
+						"h": 42
+					},
+					"margin": {
+						"x": 32,
+						"y": 38,
+						"w": 41,
+						"h": 38
+					}
+				},
+				{
+					"filename": "Knight_AttackComboNoMovement_01.png",
+					"region": {
+						"x": 82,
+						"y": 1,
+						"w": 68,
+						"h": 44
+					},
+					"margin": {
+						"x": 38,
+						"y": 36,
+						"w": 52,
+						"h": 36
+					}
+				},
+				{
+					"filename": "Knight_AttackNoMovement_01.png",
+					"region": {
+						"x": 82,
+						"y": 1,
+						"w": 68,
+						"h": 44
+					},
+					"margin": {
+						"x": 38,
+						"y": 36,
+						"w": 52,
+						"h": 36
+					}
+				},
+				{
+					"filename": "Knight_AttackCombo_01.png",
+					"region": {
+						"x": 1,
+						"y": 89,
+						"w": 68,
+						"h": 44
+					},
+					"margin": {
+						"x": 50,
+						"y": 36,
+						"w": 52,
+						"h": 36
+					}
+				},
+				{
+					"filename": "Knight_Attack_01.png",
+					"region": {
+						"x": 1,
+						"y": 89,
+						"w": 68,
+						"h": 44
+					},
+					"margin": {
+						"x": 50,
+						"y": 36,
+						"w": 52,
+						"h": 36
+					}
+				},
+				{
+					"filename": "Knight_CrouchAttack_01.png",
+					"region": {
+						"x": 152,
+						"y": 1,
+						"w": 83,
+						"h": 28
+					},
+					"margin": {
+						"x": 18,
+						"y": 52,
+						"w": 37,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Knight_AttackComboNoMovement_02.png",
+					"region": {
+						"x": 82,
+						"y": 47,
+						"w": 67,
+						"h": 37
+					},
+					"margin": {
+						"x": 40,
+						"y": 43,
+						"w": 53,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_AttackNoMovement_02.png",
+					"region": {
+						"x": 82,
+						"y": 47,
+						"w": 67,
+						"h": 37
+					},
+					"margin": {
+						"x": 40,
+						"y": 43,
+						"w": 53,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_AttackCombo_02.png",
+					"region": {
+						"x": 1,
+						"y": 135,
+						"w": 67,
+						"h": 37
+					},
+					"margin": {
+						"x": 52,
+						"y": 43,
+						"w": 53,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_Attack_02.png",
+					"region": {
+						"x": 1,
+						"y": 135,
+						"w": 67,
+						"h": 37
+					},
+					"margin": {
+						"x": 52,
+						"y": 43,
+						"w": 53,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_Attack2NoMovement_03.png",
+					"region": {
+						"x": 1,
+						"y": 174,
+						"w": 66,
+						"h": 37
+					},
+					"margin": {
+						"x": 23,
+						"y": 43,
+						"w": 54,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_AttackComboNoMovement_07.png",
+					"region": {
+						"x": 1,
+						"y": 174,
+						"w": 66,
+						"h": 37
+					},
+					"margin": {
+						"x": 23,
+						"y": 43,
+						"w": 54,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_Attack2_03.png",
+					"region": {
+						"x": 1,
+						"y": 213,
+						"w": 66,
+						"h": 37
+					},
+					"margin": {
+						"x": 29,
+						"y": 43,
+						"w": 54,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_AttackCombo_07.png",
+					"region": {
+						"x": 1,
+						"y": 213,
+						"w": 66,
+						"h": 37
+					},
+					"margin": {
+						"x": 29,
+						"y": 43,
+						"w": 54,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_AttackComboNoMovement_03.png",
+					"region": {
+						"x": 1,
+						"y": 252,
+						"w": 61,
+						"h": 36
+					},
+					"margin": {
+						"x": 40,
+						"y": 44,
+						"w": 59,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Knight_AttackCombo_03.png",
+					"region": {
+						"x": 1,
+						"y": 252,
+						"w": 61,
+						"h": 36
+					},
+					"margin": {
+						"x": 52,
+						"y": 44,
+						"w": 59,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Knight_AttackNoMovement_03.png",
+					"region": {
+						"x": 1,
+						"y": 252,
+						"w": 61,
+						"h": 36
+					},
+					"margin": {
+						"x": 40,
+						"y": 44,
+						"w": 59,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Knight_Attack_03.png",
+					"region": {
+						"x": 1,
+						"y": 252,
+						"w": 61,
+						"h": 36
+					},
+					"margin": {
+						"x": 52,
+						"y": 44,
+						"w": 59,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Knight_Attack2NoMovement_04.png",
+					"region": {
+						"x": 1,
+						"y": 290,
+						"w": 48,
+						"h": 37
+					},
+					"margin": {
+						"x": 23,
+						"y": 43,
+						"w": 72,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_AttackComboNoMovement_08.png",
+					"region": {
+						"x": 1,
+						"y": 290,
+						"w": 48,
+						"h": 37
+					},
+					"margin": {
+						"x": 23,
+						"y": 43,
+						"w": 72,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_Attack2_04.png",
+					"region": {
+						"x": 1,
+						"y": 329,
+						"w": 48,
+						"h": 37
+					},
+					"margin": {
+						"x": 29,
+						"y": 43,
+						"w": 72,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_AttackCombo_08.png",
+					"region": {
+						"x": 1,
+						"y": 329,
+						"w": 48,
+						"h": 37
+					},
+					"margin": {
+						"x": 29,
+						"y": 43,
+						"w": 72,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_CrouchAttack_02.png",
+					"region": {
+						"x": 237,
+						"y": 1,
+						"w": 55,
+						"h": 28
+					},
+					"margin": {
+						"x": 19,
+						"y": 52,
+						"w": 65,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Knight_CrouchAttack_03.png",
+					"region": {
+						"x": 294,
+						"y": 1,
+						"w": 52,
+						"h": 28
+					},
+					"margin": {
+						"x": 19,
+						"y": 52,
+						"w": 68,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Knight_Attack2NoMovement_01.png",
+					"region": {
+						"x": 348,
+						"y": 1,
+						"w": 44,
+						"h": 38
+					},
+					"margin": {
+						"x": 25,
+						"y": 42,
+						"w": 76,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_AttackComboNoMovement_05.png",
+					"region": {
+						"x": 348,
+						"y": 1,
+						"w": 44,
+						"h": 38
+					},
+					"margin": {
+						"x": 25,
+						"y": 42,
+						"w": 76,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_Roll_03.png",
+					"region": {
+						"x": 1,
+						"y": 368,
+						"w": 44,
+						"h": 21
+					},
+					"margin": {
+						"x": 42,
+						"y": 48,
+						"w": 76,
+						"h": 59
+					}
+				},
+				{
+					"filename": "Knight_Attack2NoMovement_05.png",
+					"region": {
+						"x": 152,
+						"y": 31,
+						"w": 47,
+						"h": 37
+					},
+					"margin": {
+						"x": 23,
+						"y": 43,
+						"w": 73,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_AttackComboNoMovement_09.png",
+					"region": {
+						"x": 152,
+						"y": 31,
+						"w": 47,
+						"h": 37
+					},
+					"margin": {
+						"x": 23,
+						"y": 43,
+						"w": 73,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_Attack2_05.png",
+					"region": {
+						"x": 201,
+						"y": 31,
+						"w": 47,
+						"h": 37
+					},
+					"margin": {
+						"x": 29,
+						"y": 43,
+						"w": 73,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_AttackCombo_09.png",
+					"region": {
+						"x": 201,
+						"y": 31,
+						"w": 47,
+						"h": 37
+					},
+					"margin": {
+						"x": 29,
+						"y": 43,
+						"w": 73,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_Attack2_01.png",
+					"region": {
+						"x": 250,
+						"y": 31,
+						"w": 44,
+						"h": 38
+					},
+					"margin": {
+						"x": 37,
+						"y": 42,
+						"w": 76,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_AttackCombo_05.png",
+					"region": {
+						"x": 250,
+						"y": 31,
+						"w": 44,
+						"h": 38
+					},
+					"margin": {
+						"x": 37,
+						"y": 42,
+						"w": 76,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_AttackComboNoMovement_00.png",
+					"region": {
+						"x": 296,
+						"y": 31,
+						"w": 41,
+						"h": 38
+					},
+					"margin": {
+						"x": 26,
+						"y": 42,
+						"w": 79,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_AttackNoMovement_00.png",
+					"region": {
+						"x": 296,
+						"y": 31,
+						"w": 41,
+						"h": 38
+					},
+					"margin": {
+						"x": 26,
+						"y": 42,
+						"w": 79,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_Roll_05.png",
+					"region": {
+						"x": 339,
+						"y": 41,
+						"w": 45,
+						"h": 25
+					},
+					"margin": {
+						"x": 41,
+						"y": 49,
+						"w": 75,
+						"h": 55
+					}
+				},
+				{
+					"filename": "Knight_DeathNoMovement_09.png",
+					"region": {
+						"x": 151,
+						"y": 70,
+						"w": 44,
+						"h": 14
+					},
+					"margin": {
+						"x": 29,
+						"y": 66,
+						"w": 76,
+						"h": 66
+					}
+				},
+				{
+					"filename": "Knight_DeathNoMovement_08.png",
+					"region": {
+						"x": 197,
+						"y": 70,
+						"w": 43,
+						"h": 14
+					},
+					"margin": {
+						"x": 29,
+						"y": 66,
+						"w": 77,
+						"h": 66
+					}
+				},
+				{
+					"filename": "Knight_Death_08.png",
+					"region": {
+						"x": 197,
+						"y": 70,
+						"w": 43,
+						"h": 14
+					},
+					"margin": {
+						"x": 12,
+						"y": 66,
+						"w": 77,
+						"h": 66
+					}
+				},
+				{
+					"filename": "Knight_DeathNoMovement_00.png",
+					"region": {
+						"x": 51,
+						"y": 290,
+						"w": 32,
+						"h": 40
+					},
+					"margin": {
+						"x": 35,
+						"y": 40,
+						"w": 88,
+						"h": 40
+					}
+				},
+				{
+					"filename": "Knight_Hit_00.png",
+					"region": {
+						"x": 51,
+						"y": 290,
+						"w": 32,
+						"h": 40
+					},
+					"margin": {
+						"x": 35,
+						"y": 40,
+						"w": 88,
+						"h": 40
+					}
+				},
+				{
+					"filename": "Knight_Attack2NoMovement_00.png",
+					"region": {
+						"x": 51,
+						"y": 332,
+						"w": 40,
+						"h": 38
+					},
+					"margin": {
+						"x": 29,
+						"y": 42,
+						"w": 80,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_Attack2_00.png",
+					"region": {
+						"x": 51,
+						"y": 332,
+						"w": 40,
+						"h": 38
+					},
+					"margin": {
+						"x": 41,
+						"y": 42,
+						"w": 80,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_AttackComboNoMovement_04.png",
+					"region": {
+						"x": 51,
+						"y": 332,
+						"w": 40,
+						"h": 38
+					},
+					"margin": {
+						"x": 29,
+						"y": 42,
+						"w": 80,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_AttackCombo_04.png",
+					"region": {
+						"x": 51,
+						"y": 332,
+						"w": 40,
+						"h": 38
+					},
+					"margin": {
+						"x": 41,
+						"y": 42,
+						"w": 80,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_Dash_00.png",
+					"region": {
+						"x": 64,
+						"y": 252,
+						"w": 35,
+						"h": 36
+					},
+					"margin": {
+						"x": 40,
+						"y": 44,
+						"w": 85,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Knight_DeathNoMovement_01.png",
+					"region": {
+						"x": 85,
+						"y": 290,
+						"w": 31,
+						"h": 40
+					},
+					"margin": {
+						"x": 35,
+						"y": 39,
+						"w": 89,
+						"h": 40
+					}
+				},
+				{
+					"filename": "Knight_AttackCombo_00.png",
+					"region": {
+						"x": 93,
+						"y": 332,
+						"w": 41,
+						"h": 38
+					},
+					"margin": {
+						"x": 35,
+						"y": 42,
+						"w": 79,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_Attack_00.png",
+					"region": {
+						"x": 93,
+						"y": 332,
+						"w": 41,
+						"h": 38
+					},
+					"margin": {
+						"x": 35,
+						"y": 42,
+						"w": 79,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_DeathNoMovement_07.png",
+					"region": {
+						"x": 47,
+						"y": 372,
+						"w": 41,
+						"h": 18
+					},
+					"margin": {
+						"x": 29,
+						"y": 62,
+						"w": 79,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Knight_Death_07.png",
+					"region": {
+						"x": 90,
+						"y": 372,
+						"w": 41,
+						"h": 18
+					},
+					"margin": {
+						"x": 12,
+						"y": 62,
+						"w": 79,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Knight_Death_00.png",
+					"region": {
+						"x": 71,
+						"y": 89,
+						"w": 32,
+						"h": 40
+					},
+					"margin": {
+						"x": 35,
+						"y": 40,
+						"w": 88,
+						"h": 40
+					}
+				},
+				{
+					"filename": "Knight_Dash_01.png",
+					"region": {
+						"x": 105,
+						"y": 86,
+						"w": 35,
+						"h": 36
+					},
+					"margin": {
+						"x": 40,
+						"y": 44,
+						"w": 85,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Knight_Roll_01.png",
+					"region": {
+						"x": 142,
+						"y": 86,
+						"w": 38,
+						"h": 31
+					},
+					"margin": {
+						"x": 43,
+						"y": 45,
+						"w": 82,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Knight_CrouchAttack_00.png",
+					"region": {
+						"x": 182,
+						"y": 86,
+						"w": 38,
+						"h": 30
+					},
+					"margin": {
+						"x": 30,
+						"y": 50,
+						"w": 82,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Knight_CrouchAll_00.png",
+					"region": {
+						"x": 222,
+						"y": 86,
+						"w": 31,
+						"h": 32
+					},
+					"margin": {
+						"x": 42,
+						"y": 48,
+						"w": 89,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Knight_CrouchAll_02.png",
+					"region": {
+						"x": 222,
+						"y": 86,
+						"w": 31,
+						"h": 32
+					},
+					"margin": {
+						"x": 42,
+						"y": 48,
+						"w": 89,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Knight_CrouchTransition_00.png",
+					"region": {
+						"x": 222,
+						"y": 86,
+						"w": 31,
+						"h": 32
+					},
+					"margin": {
+						"x": 42,
+						"y": 48,
+						"w": 89,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Knight_Death_01.png",
+					"region": {
+						"x": 255,
+						"y": 71,
+						"w": 31,
+						"h": 40
+					},
+					"margin": {
+						"x": 30,
+						"y": 39,
+						"w": 89,
+						"h": 40
+					}
+				},
+				{
+					"filename": "Knight_Fall_00.png",
+					"region": {
+						"x": 288,
+						"y": 71,
+						"w": 31,
+						"h": 39
+					},
+					"margin": {
+						"x": 38,
+						"y": 41,
+						"w": 89,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_Fall_01.png",
+					"region": {
+						"x": 321,
+						"y": 71,
+						"w": 31,
+						"h": 39
+					},
+					"margin": {
+						"x": 38,
+						"y": 41,
+						"w": 89,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_Fall_02.png",
+					"region": {
+						"x": 354,
+						"y": 68,
+						"w": 31,
+						"h": 39
+					},
+					"margin": {
+						"x": 38,
+						"y": 41,
+						"w": 89,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_Death_09.png",
+					"region": {
+						"x": 288,
+						"y": 112,
+						"w": 43,
+						"h": 14
+					},
+					"margin": {
+						"x": 12,
+						"y": 66,
+						"w": 77,
+						"h": 66
+					}
+				},
+				{
+					"filename": "Knight_CrouchAll_01.png",
+					"region": {
+						"x": 255,
+						"y": 113,
+						"w": 31,
+						"h": 28
+					},
+					"margin": {
+						"x": 42,
+						"y": 52,
+						"w": 89,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Knight_Crouch_00.png",
+					"region": {
+						"x": 255,
+						"y": 113,
+						"w": 31,
+						"h": 28
+					},
+					"margin": {
+						"x": 42,
+						"y": 52,
+						"w": 89,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Knight_Roll_04.png",
+					"region": {
+						"x": 288,
+						"y": 128,
+						"w": 43,
+						"h": 21
+					},
+					"margin": {
+						"x": 42,
+						"y": 48,
+						"w": 77,
+						"h": 59
+					}
+				},
+				{
+					"filename": "Knight_Idle_00.png",
+					"region": {
+						"x": 333,
+						"y": 112,
+						"w": 23,
+						"h": 39
+					},
+					"margin": {
+						"x": 43,
+						"y": 41,
+						"w": 97,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_Idle_08.png",
+					"region": {
+						"x": 333,
+						"y": 112,
+						"w": 23,
+						"h": 39
+					},
+					"margin": {
+						"x": 43,
+						"y": 41,
+						"w": 97,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_Idle_09.png",
+					"region": {
+						"x": 333,
+						"y": 112,
+						"w": 23,
+						"h": 39
+					},
+					"margin": {
+						"x": 43,
+						"y": 41,
+						"w": 97,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_DeathNoMovement_02.png",
+					"region": {
+						"x": 358,
+						"y": 109,
+						"w": 34,
+						"h": 27
+					},
+					"margin": {
+						"x": 36,
+						"y": 48,
+						"w": 86,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Knight_Death_02.png",
+					"region": {
+						"x": 358,
+						"y": 138,
+						"w": 34,
+						"h": 27
+					},
+					"margin": {
+						"x": 24,
+						"y": 48,
+						"w": 86,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Knight_DeathNoMovement_04.png",
+					"region": {
+						"x": 142,
+						"y": 119,
+						"w": 40,
+						"h": 26
+					},
+					"margin": {
+						"x": 29,
+						"y": 54,
+						"w": 80,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Knight_WallClimbNoMovement_03.png",
+					"region": {
+						"x": 184,
+						"y": 118,
+						"w": 32,
+						"h": 27
+					},
+					"margin": {
+						"x": 41,
+						"y": 48,
+						"w": 88,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Knight_WallClimb_03.png",
+					"region": {
+						"x": 218,
+						"y": 120,
+						"w": 32,
+						"h": 27
+					},
+					"margin": {
+						"x": 47,
+						"y": 25,
+						"w": 88,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Knight_Idle_01.png",
+					"region": {
+						"x": 69,
+						"y": 174,
+						"w": 23,
+						"h": 39
+					},
+					"margin": {
+						"x": 43,
+						"y": 41,
+						"w": 97,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_WallClimb_00.png",
+					"region": {
+						"x": 69,
+						"y": 215,
+						"w": 23,
+						"h": 35
+					},
+					"margin": {
+						"x": 47,
+						"y": 43,
+						"w": 97,
+						"h": 45
+					}
+				},
+				{
+					"filename": "Knight_TurnAround_01.png",
+					"region": {
+						"x": 70,
+						"y": 135,
+						"w": 29,
+						"h": 37
+					},
+					"margin": {
+						"x": 45,
+						"y": 43,
+						"w": 91,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_Idle_02.png",
+					"region": {
+						"x": 94,
+						"y": 174,
+						"w": 23,
+						"h": 39
+					},
+					"margin": {
+						"x": 43,
+						"y": 41,
+						"w": 97,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_WallHang_00.png",
+					"region": {
+						"x": 94,
+						"y": 215,
+						"w": 23,
+						"h": 35
+					},
+					"margin": {
+						"x": 47,
+						"y": 43,
+						"w": 97,
+						"h": 45
+					}
+				},
+				{
+					"filename": "Knight_TurnAround_00.png",
+					"region": {
+						"x": 101,
+						"y": 252,
+						"w": 31,
+						"h": 36
+					},
+					"margin": {
+						"x": 45,
+						"y": 44,
+						"w": 89,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Knight_Idle_03.png",
+					"region": {
+						"x": 118,
+						"y": 290,
+						"w": 23,
+						"h": 39
+					},
+					"margin": {
+						"x": 43,
+						"y": 41,
+						"w": 97,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_Idle_04.png",
+					"region": {
+						"x": 136,
+						"y": 331,
+						"w": 23,
+						"h": 39
+					},
+					"margin": {
+						"x": 43,
+						"y": 41,
+						"w": 97,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_SlideAll_01.png",
+					"region": {
+						"x": 133,
+						"y": 372,
+						"w": 39,
+						"h": 19
+					},
+					"margin": {
+						"x": 44,
+						"y": 61,
+						"w": 81,
+						"h": 61
+					}
+				},
+				{
+					"filename": "Knight_Slide_00.png",
+					"region": {
+						"x": 133,
+						"y": 372,
+						"w": 39,
+						"h": 19
+					},
+					"margin": {
+						"x": 44,
+						"y": 61,
+						"w": 81,
+						"h": 61
+					}
+				},
+				{
+					"filename": "Knight_Death_04.png",
+					"region": {
+						"x": 101,
+						"y": 147,
+						"w": 40,
+						"h": 25
+					},
+					"margin": {
+						"x": 12,
+						"y": 55,
+						"w": 80,
+						"h": 55
+					}
+				},
+				{
+					"filename": "Knight_Roll_02.png",
+					"region": {
+						"x": 143,
+						"y": 147,
+						"w": 42,
+						"h": 26
+					},
+					"margin": {
+						"x": 43,
+						"y": 47,
+						"w": 78,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Knight_Roll_09.png",
+					"region": {
+						"x": 105,
+						"y": 124,
+						"w": 27,
+						"h": 21
+					},
+					"margin": {
+						"x": 48,
+						"y": 59,
+						"w": 93,
+						"h": 59
+					}
+				},
+				{
+					"filename": "Knight_Run_03.png",
+					"region": {
+						"x": 119,
+						"y": 174,
+						"w": 21,
+						"h": 39
+					},
+					"margin": {
+						"x": 45,
+						"y": 41,
+						"w": 99,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_JumpFallInbetween_01.png",
+					"region": {
+						"x": 142,
+						"y": 175,
+						"w": 31,
+						"h": 39
+					},
+					"margin": {
+						"x": 38,
+						"y": 41,
+						"w": 89,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_JumpFallInbetween_00.png",
+					"region": {
+						"x": 187,
+						"y": 147,
+						"w": 29,
+						"h": 39
+					},
+					"margin": {
+						"x": 40,
+						"y": 41,
+						"w": 91,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_Run_05.png",
+					"region": {
+						"x": 218,
+						"y": 149,
+						"w": 31,
+						"h": 38
+					},
+					"margin": {
+						"x": 40,
+						"y": 41,
+						"w": 89,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_Roll_11.png",
+					"region": {
+						"x": 119,
+						"y": 216,
+						"w": 28,
+						"h": 34
+					},
+					"margin": {
+						"x": 45,
+						"y": 46,
+						"w": 92,
+						"h": 46
+					}
+				},
+				{
+					"filename": "Knight_Jump_00.png",
+					"region": {
+						"x": 149,
+						"y": 216,
+						"w": 27,
+						"h": 39
+					},
+					"margin": {
+						"x": 43,
+						"y": 41,
+						"w": 93,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_SlideAll_00.png",
+					"region": {
+						"x": 175,
+						"y": 188,
+						"w": 40,
+						"h": 25
+					},
+					"margin": {
+						"x": 44,
+						"y": 55,
+						"w": 80,
+						"h": 55
+					}
+				},
+				{
+					"filename": "Knight_SlideTransitionStart_00.png",
+					"region": {
+						"x": 175,
+						"y": 188,
+						"w": 40,
+						"h": 25
+					},
+					"margin": {
+						"x": 44,
+						"y": 55,
+						"w": 80,
+						"h": 55
+					}
+				},
+				{
+					"filename": "Knight_Run_00.png",
+					"region": {
+						"x": 178,
+						"y": 215,
+						"w": 30,
+						"h": 39
+					},
+					"margin": {
+						"x": 42,
+						"y": 41,
+						"w": 90,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_DeathNoMovement_03.png",
+					"region": {
+						"x": 217,
+						"y": 189,
+						"w": 37,
+						"h": 25
+					},
+					"margin": {
+						"x": 33,
+						"y": 49,
+						"w": 83,
+						"h": 55
+					}
+				},
+				{
+					"filename": "Knight_Death_03.png",
+					"region": {
+						"x": 217,
+						"y": 189,
+						"w": 37,
+						"h": 25
+					},
+					"margin": {
+						"x": 18,
+						"y": 49,
+						"w": 83,
+						"h": 55
+					}
+				},
+				{
+					"filename": "Knight_Run_01.png",
+					"region": {
+						"x": 210,
+						"y": 216,
+						"w": 28,
+						"h": 38
+					},
+					"margin": {
+						"x": 43,
+						"y": 42,
+						"w": 92,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_Idle_05.png",
+					"region": {
+						"x": 240,
+						"y": 216,
+						"w": 23,
+						"h": 39
+					},
+					"margin": {
+						"x": 43,
+						"y": 41,
+						"w": 97,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_DeathNoMovement_05.png",
+					"region": {
+						"x": 134,
+						"y": 257,
+						"w": 39,
+						"h": 23
+					},
+					"margin": {
+						"x": 29,
+						"y": 57,
+						"w": 81,
+						"h": 57
+					}
+				},
+				{
+					"filename": "Knight_Jump_01.png",
+					"region": {
+						"x": 143,
+						"y": 282,
+						"w": 27,
+						"h": 39
+					},
+					"margin": {
+						"x": 43,
+						"y": 41,
+						"w": 93,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_Run_02.png",
+					"region": {
+						"x": 251,
+						"y": 149,
+						"w": 20,
+						"h": 38
+					},
+					"margin": {
+						"x": 48,
+						"y": 42,
+						"w": 100,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_Run_09.png",
+					"region": {
+						"x": 273,
+						"y": 151,
+						"w": 28,
+						"h": 38
+					},
+					"margin": {
+						"x": 42,
+						"y": 40,
+						"w": 92,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_Jump_02.png",
+					"region": {
+						"x": 303,
+						"y": 151,
+						"w": 27,
+						"h": 39
+					},
+					"margin": {
+						"x": 43,
+						"y": 41,
+						"w": 93,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_WallSlide_00.png",
+					"region": {
+						"x": 332,
+						"y": 153,
+						"w": 24,
+						"h": 36
+					},
+					"margin": {
+						"x": 47,
+						"y": 43,
+						"w": 96,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Knight_DeathNoMovement_06.png",
+					"region": {
+						"x": 256,
+						"y": 191,
+						"w": 39,
+						"h": 23
+					},
+					"margin": {
+						"x": 29,
+						"y": 57,
+						"w": 81,
+						"h": 57
+					}
+				},
+				{
+					"filename": "Knight_Death_06.png",
+					"region": {
+						"x": 256,
+						"y": 191,
+						"w": 39,
+						"h": 23
+					},
+					"margin": {
+						"x": 12,
+						"y": 57,
+						"w": 81,
+						"h": 57
+					}
+				},
+				{
+					"filename": "Knight_Roll_00.png",
+					"region": {
+						"x": 265,
+						"y": 216,
+						"w": 26,
+						"h": 39
+					},
+					"margin": {
+						"x": 49,
+						"y": 40,
+						"w": 94,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_CrouchWalk_00.png",
+					"region": {
+						"x": 358,
+						"y": 167,
+						"w": 31,
+						"h": 28
+					},
+					"margin": {
+						"x": 42,
+						"y": 52,
+						"w": 89,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Knight_Death_05.png",
+					"region": {
+						"x": 297,
+						"y": 192,
+						"w": 39,
+						"h": 22
+					},
+					"margin": {
+						"x": 12,
+						"y": 58,
+						"w": 81,
+						"h": 58
+					}
+				},
+				{
+					"filename": "Knight_Run_04.png",
+					"region": {
+						"x": 293,
+						"y": 216,
+						"w": 27,
+						"h": 38
+					},
+					"margin": {
+						"x": 43,
+						"y": 40,
+						"w": 93,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_Idle_06.png",
+					"region": {
+						"x": 322,
+						"y": 216,
+						"w": 23,
+						"h": 39
+					},
+					"margin": {
+						"x": 43,
+						"y": 41,
+						"w": 97,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_Idle_07.png",
+					"region": {
+						"x": 161,
+						"y": 323,
+						"w": 23,
+						"h": 39
+					},
+					"margin": {
+						"x": 43,
+						"y": 41,
+						"w": 97,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_CrouchWalk_01.png",
+					"region": {
+						"x": 174,
+						"y": 364,
+						"w": 31,
+						"h": 28
+					},
+					"margin": {
+						"x": 42,
+						"y": 52,
+						"w": 89,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Knight_Run_08.png",
+					"region": {
+						"x": 172,
+						"y": 282,
+						"w": 20,
+						"h": 39
+					},
+					"margin": {
+						"x": 45,
+						"y": 41,
+						"w": 100,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Knight_Run_06.png",
+					"region": {
+						"x": 186,
+						"y": 323,
+						"w": 27,
+						"h": 38
+					},
+					"margin": {
+						"x": 43,
+						"y": 42,
+						"w": 93,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_CrouchWalk_02.png",
+					"region": {
+						"x": 207,
+						"y": 363,
+						"w": 31,
+						"h": 29
+					},
+					"margin": {
+						"x": 42,
+						"y": 51,
+						"w": 89,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Knight_SlideAll_02.png",
+					"region": {
+						"x": 178,
+						"y": 256,
+						"w": 39,
+						"h": 19
+					},
+					"margin": {
+						"x": 44,
+						"y": 61,
+						"w": 81,
+						"h": 61
+					}
+				},
+				{
+					"filename": "Knight_Slide_01.png",
+					"region": {
+						"x": 178,
+						"y": 256,
+						"w": 39,
+						"h": 19
+					},
+					"margin": {
+						"x": 44,
+						"y": 61,
+						"w": 81,
+						"h": 61
+					}
+				},
+				{
+					"filename": "Knight_TurnAround_02.png",
+					"region": {
+						"x": 194,
+						"y": 277,
+						"w": 27,
+						"h": 37
+					},
+					"margin": {
+						"x": 46,
+						"y": 43,
+						"w": 93,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_Run_07.png",
+					"region": {
+						"x": 215,
+						"y": 316,
+						"w": 19,
+						"h": 38
+					},
+					"margin": {
+						"x": 46,
+						"y": 42,
+						"w": 101,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Knight_WallClimbNoMovement_06.png",
+					"region": {
+						"x": 347,
+						"y": 197,
+						"w": 26,
+						"h": 37
+					},
+					"margin": {
+						"x": 42,
+						"y": 43,
+						"w": 94,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_CrouchWalk_03.png",
+					"region": {
+						"x": 347,
+						"y": 236,
+						"w": 31,
+						"h": 29
+					},
+					"margin": {
+						"x": 42,
+						"y": 51,
+						"w": 89,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Knight_CrouchWalk_04.png",
+					"region": {
+						"x": 240,
+						"y": 257,
+						"w": 31,
+						"h": 28
+					},
+					"margin": {
+						"x": 42,
+						"y": 52,
+						"w": 89,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Knight_Roll_07.png",
+					"region": {
+						"x": 223,
+						"y": 287,
+						"w": 25,
+						"h": 27
+					},
+					"margin": {
+						"x": 52,
+						"y": 53,
+						"w": 95,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Knight_WallClimb_06.png",
+					"region": {
+						"x": 236,
+						"y": 316,
+						"w": 26,
+						"h": 37
+					},
+					"margin": {
+						"x": 58,
+						"y": 12,
+						"w": 94,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Knight_WallSlide_01.png",
+					"region": {
+						"x": 240,
+						"y": 355,
+						"w": 24,
+						"h": 36
+					},
+					"margin": {
+						"x": 47,
+						"y": 43,
+						"w": 96,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Knight_CrouchWalk_05.png",
+					"region": {
+						"x": 273,
+						"y": 257,
+						"w": 31,
+						"h": 28
+					},
+					"margin": {
+						"x": 42,
+						"y": 52,
+						"w": 89,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Knight_Roll_08.png",
+					"region": {
+						"x": 250,
+						"y": 287,
+						"w": 27,
+						"h": 22
+					},
+					"margin": {
+						"x": 54,
+						"y": 58,
+						"w": 93,
+						"h": 58
+					}
+				},
+				{
+					"filename": "Knight_CrouchWalk_06.png",
+					"region": {
+						"x": 279,
+						"y": 287,
+						"w": 31,
+						"h": 29
+					},
+					"margin": {
+						"x": 42,
+						"y": 51,
+						"w": 89,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Knight_Roll_06.png",
+					"region": {
+						"x": 264,
+						"y": 318,
+						"w": 30,
+						"h": 32
+					},
+					"margin": {
+						"x": 46,
+						"y": 48,
+						"w": 90,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Knight_WallSlide_02.png",
+					"region": {
+						"x": 266,
+						"y": 352,
+						"w": 24,
+						"h": 36
+					},
+					"margin": {
+						"x": 47,
+						"y": 43,
+						"w": 96,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Knight_WallClimbNoMovement_00.png",
+					"region": {
+						"x": 296,
+						"y": 318,
+						"w": 23,
+						"h": 34
+					},
+					"margin": {
+						"x": 42,
+						"y": 46,
+						"w": 97,
+						"h": 46
+					}
+				},
+				{
+					"filename": "Knight_WallClimbNoMovement_05.png",
+					"region": {
+						"x": 292,
+						"y": 354,
+						"w": 23,
+						"h": 34
+					},
+					"margin": {
+						"x": 44,
+						"y": 45,
+						"w": 97,
+						"h": 46
+					}
+				},
+				{
+					"filename": "Knight_WallClimb_05.png",
+					"region": {
+						"x": 292,
+						"y": 354,
+						"w": 23,
+						"h": 34
+					},
+					"margin": {
+						"x": 57,
+						"y": 14,
+						"w": 97,
+						"h": 46
+					}
+				},
+				{
+					"filename": "Knight_SlideAll_03.png",
+					"region": {
+						"x": 306,
+						"y": 257,
+						"w": 27,
+						"h": 28
+					},
+					"margin": {
+						"x": 48,
+						"y": 52,
+						"w": 93,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Knight_SlideTransitionEnd_00.png",
+					"region": {
+						"x": 306,
+						"y": 257,
+						"w": 27,
+						"h": 28
+					},
+					"margin": {
+						"x": 48,
+						"y": 52,
+						"w": 93,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Knight_CrouchWalk_07.png",
+					"region": {
+						"x": 312,
+						"y": 287,
+						"w": 31,
+						"h": 29
+					},
+					"margin": {
+						"x": 42,
+						"y": 51,
+						"w": 89,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Knight_WallClimbNoMovement_01.png",
+					"region": {
+						"x": 321,
+						"y": 318,
+						"w": 25,
+						"h": 30
+					},
+					"margin": {
+						"x": 41,
+						"y": 50,
+						"w": 95,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Knight_WallClimbNoMovement_02.png",
+					"region": {
+						"x": 345,
+						"y": 267,
+						"w": 28,
+						"h": 29
+					},
+					"margin": {
+						"x": 42,
+						"y": 50,
+						"w": 92,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Knight_WallClimb_02.png",
+					"region": {
+						"x": 345,
+						"y": 267,
+						"w": 28,
+						"h": 29
+					},
+					"margin": {
+						"x": 48,
+						"y": 28,
+						"w": 92,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Knight_WallClimb_01.png",
+					"region": {
+						"x": 348,
+						"y": 298,
+						"w": 25,
+						"h": 30
+					},
+					"margin": {
+						"x": 46,
+						"y": 35,
+						"w": 95,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Knight_WallClimbNoMovement_04.png",
+					"region": {
+						"x": 348,
+						"y": 330,
+						"w": 28,
+						"h": 29
+					},
+					"margin": {
+						"x": 42,
+						"y": 47,
+						"w": 92,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Knight_Roll_10.png",
+					"region": {
+						"x": 317,
+						"y": 354,
+						"w": 24,
+						"h": 29
+					},
+					"margin": {
+						"x": 48,
+						"y": 51,
+						"w": 96,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Knight_WallClimb_04.png",
+					"region": {
+						"x": 343,
+						"y": 361,
+						"w": 28,
+						"h": 29
+					},
+					"margin": {
+						"x": 51,
+						"y": 19,
+						"w": 92,
+						"h": 51
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:86b8ea4c7175f8a3efb49f26e0e35f10:c86279d34ea3c310320975d32ec2bf6b:b98aa003de4ff040f16dbb29f454fcb9$"
+	}
+}

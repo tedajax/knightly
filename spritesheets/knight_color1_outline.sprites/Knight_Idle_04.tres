@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://p0m8g1pdmb4y"]
+
+[ext_resource type="Texture2D" uid="uid://dcyqsic8svpbg" path="res://spritesheets/knight_color1_outline.png" id="1_sej0a"]
+
+[resource]
+atlas = ExtResource("1_sej0a")
+region = Rect2(136, 331, 23, 39)
+margin = Rect2(43, 41, 97, 41)

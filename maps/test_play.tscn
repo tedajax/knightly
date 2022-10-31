@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dk6r3foxh80hc"]
+
+[ext_resource type="SpriteFrames" uid="uid://dpwgiql2rqbpd" path="res://spritesheets/knight_color1_nooutline_spriteframes.tres" id="1_ms1t6"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(459.75, 252.5)
+scale = Vector2(4.5625, 4.5625)
+frames = ExtResource("1_ms1t6")
+animation = &"run"
+playing = true

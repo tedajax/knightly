@@ -1,0 +1,44 @@
+[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://us8jgl3jjjxp"]
+
+[ext_resource type="Texture2D" uid="uid://hydry8a7d6p0" path="res://spritesheets/knight_color1_outline.sprites/Knight_Attack_00.tres" id="1_kbj4e"]
+[ext_resource type="Texture2D" uid="uid://buuqs41uvuf78" path="res://spritesheets/knight_color1_outline.sprites/Knight_Attack_01.tres" id="2_o3aeu"]
+[ext_resource type="Texture2D" uid="uid://ba6roea3ued8u" path="res://spritesheets/knight_color1_outline.sprites/Knight_Attack_02.tres" id="3_boja6"]
+[ext_resource type="Texture2D" uid="uid://deokyl44nlb06" path="res://spritesheets/knight_color1_outline.sprites/Knight_Attack_03.tres" id="4_vjc1k"]
+[ext_resource type="Texture2D" uid="uid://dmm4dy61jmrmv" path="res://spritesheets/knight_color1_outline.sprites/Knight_Idle_00.tres" id="5_ugosk"]
+[ext_resource type="Texture2D" uid="uid://c0fgc7ossx10m" path="res://spritesheets/knight_color1_outline.sprites/Knight_Idle_01.tres" id="6_6xqg1"]
+[ext_resource type="Texture2D" uid="uid://b8yc2xapw7558" path="res://spritesheets/knight_color1_outline.sprites/Knight_Idle_02.tres" id="7_h8hja"]
+[ext_resource type="Texture2D" uid="uid://c7shsdm8ws6k1" path="res://spritesheets/knight_color1_outline.sprites/Knight_Idle_03.tres" id="8_w65ki"]
+[ext_resource type="Texture2D" uid="uid://p0m8g1pdmb4y" path="res://spritesheets/knight_color1_outline.sprites/Knight_Idle_04.tres" id="9_4fu1e"]
+[ext_resource type="Texture2D" uid="uid://y54c3mk458vx" path="res://spritesheets/knight_color1_outline.sprites/Knight_Idle_05.tres" id="10_vk21r"]
+[ext_resource type="Texture2D" uid="uid://b17o0re7b1lyx" path="res://spritesheets/knight_color1_outline.sprites/Knight_Idle_06.tres" id="11_6ae0f"]
+[ext_resource type="Texture2D" uid="uid://c6efgjwxuweol" path="res://spritesheets/knight_color1_outline.sprites/Knight_Idle_07.tres" id="12_63gx8"]
+[ext_resource type="Texture2D" uid="uid://bph7t2lumu0hu" path="res://spritesheets/knight_color1_outline.sprites/Knight_Idle_08.tres" id="13_px2sd"]
+[ext_resource type="Texture2D" uid="uid://pnoqo7yflvvq" path="res://spritesheets/knight_color1_outline.sprites/Knight_Idle_09.tres" id="14_jm2pn"]
+[ext_resource type="Texture2D" uid="uid://lueihoicf3pm" path="res://spritesheets/knight_color1_outline.sprites/Knight_Run_00.tres" id="15_2wjby"]
+[ext_resource type="Texture2D" uid="uid://dqhhfa6mogcoj" path="res://spritesheets/knight_color1_outline.sprites/Knight_Run_01.tres" id="16_bf8q0"]
+[ext_resource type="Texture2D" uid="uid://cnh5da3x7io7g" path="res://spritesheets/knight_color1_outline.sprites/Knight_Run_02.tres" id="17_5dpb2"]
+[ext_resource type="Texture2D" uid="uid://dos1jyo6tkp5l" path="res://spritesheets/knight_color1_outline.sprites/Knight_Run_03.tres" id="18_n5r01"]
+[ext_resource type="Texture2D" uid="uid://uiuq3hfgo6d2" path="res://spritesheets/knight_color1_outline.sprites/Knight_Run_04.tres" id="19_g00gy"]
+[ext_resource type="Texture2D" uid="uid://cdimrwq45ngn6" path="res://spritesheets/knight_color1_outline.sprites/Knight_Run_05.tres" id="20_onlpp"]
+[ext_resource type="Texture2D" uid="uid://bvwwekfe6brpe" path="res://spritesheets/knight_color1_outline.sprites/Knight_Run_06.tres" id="21_pexbx"]
+[ext_resource type="Texture2D" uid="uid://d1kjhhcnvoutb" path="res://spritesheets/knight_color1_outline.sprites/Knight_Run_07.tres" id="22_mlmum"]
+[ext_resource type="Texture2D" uid="uid://qfu1mw7tx1m1" path="res://spritesheets/knight_color1_outline.sprites/Knight_Run_08.tres" id="23_gcxmo"]
+[ext_resource type="Texture2D" uid="uid://e4d3kp8x0y7m" path="res://spritesheets/knight_color1_outline.sprites/Knight_Run_09.tres" id="24_euocv"]
+
+[resource]
+animations = [{
+"frames": [ExtResource("1_kbj4e"), ExtResource("2_o3aeu"), ExtResource("3_boja6"), ExtResource("4_vjc1k")],
+"loop": false,
+"name": &"attack1",
+"speed": 15.0
+}, {
+"frames": [ExtResource("5_ugosk"), ExtResource("6_6xqg1"), ExtResource("7_h8hja"), ExtResource("8_w65ki"), ExtResource("9_4fu1e"), ExtResource("10_vk21r"), ExtResource("11_6ae0f"), ExtResource("12_63gx8"), ExtResource("13_px2sd"), ExtResource("14_jm2pn")],
+"loop": true,
+"name": &"idle",
+"speed": 15.0
+}, {
+"frames": [ExtResource("15_2wjby"), ExtResource("16_bf8q0"), ExtResource("17_5dpb2"), ExtResource("18_n5r01"), ExtResource("19_g00gy"), ExtResource("20_onlpp"), ExtResource("21_pexbx"), ExtResource("22_mlmum"), ExtResource("23_gcxmo"), ExtResource("24_euocv")],
+"loop": true,
+"name": &"run",
+"speed": 15.0
+}]
