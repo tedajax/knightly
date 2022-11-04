@@ -243,7 +243,7 @@ animations = [{
 "speed": 15.0
 }, {
 "frames": [ExtResource("97_xkxvu"), ExtResource("98_oqyjv")],
-"loop": true,
+"loop": false,
 "name": &"JumpFallInbetween",
 "speed": 15.0
 }, {

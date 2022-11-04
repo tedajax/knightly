@@ -243,14 +243,14 @@ animations = [{
 "speed": 15.0
 }, {
 "frames": [ExtResource("97_qych6"), ExtResource("98_l8qat")],
-"loop": true,
+"loop": false,
 "name": &"JumpFallInbetween",
 "speed": 15.0
 }, {
 "frames": [ExtResource("99_r4lde"), ExtResource("100_u0eka"), ExtResource("101_535hn"), ExtResource("102_qxwd3"), ExtResource("103_23bxp"), ExtResource("104_7jq5a"), ExtResource("105_pko6b"), ExtResource("106_lvvxa"), ExtResource("107_ked4l"), ExtResource("108_iesdk"), ExtResource("109_k6utx"), ExtResource("110_s3iuo")],
 "loop": true,
 "name": &"Roll",
-"speed": 15.0
+"speed": 24.0
 }, {
 "frames": [ExtResource("111_kuod0"), ExtResource("112_vfqx2"), ExtResource("113_h0v4l"), ExtResource("114_ymacb"), ExtResource("115_vtk8p"), ExtResource("116_en44k"), ExtResource("117_vic4c"), ExtResource("118_j540e"), ExtResource("119_g4wfp"), ExtResource("120_ddbg6")],
 "loop": true,
