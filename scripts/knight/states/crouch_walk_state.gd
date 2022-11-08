@@ -2,7 +2,7 @@ extends State
 class_name CrouchWalkState
 
 const MOVE_ACCEL = 800.0
-const MAX_SPEED = 100.0
+const MAX_SPEED = 70.0
 const FRICTION = 0.4
 
 func _ready():

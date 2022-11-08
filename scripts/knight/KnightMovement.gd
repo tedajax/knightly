@@ -13,6 +13,7 @@ var jump_request = false
 
 var walk_move_accel = 800.0
 var walk_max_speed = 140.0
+var walk_max_speed_decay = 400.0
 var walk_friction = 0.4
 
 @export var fall_blend_threshold: float = 20.0
@@ -78,13 +79,24 @@ func apply_gravity(delta):
 		
 func apply_walk_accel(delta):
 	var change = walk_move_accel * input_x * delta
+
+	# acceleration cannot accelerate past max speed
+	# however if already past max speed won't immediately clamp velocity to it
+	# allows for slow off of excess speed like when max speed is changed in different states
+	if abs(velocity.x + change) > walk_max_speed:
+		if change > 0:
+			velocity.x = max(velocity.x, walk_max_speed)
+		else:
+			velocity.x = min(velocity.x, -walk_max_speed)
+	else:
+		velocity.x += change
 	
-	velocity.x += walk_move_accel * input_x * delta
-	var vel_x_mag = absf(velocity.x)
-	if vel_x_mag > walk_max_speed:
-		var excess = vel_x_mag - walk_max_speed
-		var adjust = minf(10.0, excess) * -signf(velocity.x)
-		velocity.x += adjust
+	
+	var decay = walk_max_speed_decay * delta
+	if velocity.x > walk_max_speed:
+		velocity.x = max(velocity.x - decay, walk_max_speed)
+	elif velocity.x < -walk_max_speed:
+		velocity.x =  min(velocity.x + decay, walk_max_speed)
 
 func apply_friction(delta):
 	var fric_mag = -velocity.x * walk_friction
