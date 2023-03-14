@@ -21,9 +21,8 @@ fall_blend_threshold = 50.0
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 texture_filter = 1
 position = Vector2(4, -26)
-frames = ExtResource("1_tuf6v")
+sprite_frames = ExtResource("1_tuf6v")
 animation = &"Run"
-playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, -1)

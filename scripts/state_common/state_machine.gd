@@ -22,9 +22,14 @@ func change_state(state_name, on_create = null):
 		state.cleanup()
 		state.queue_free()
 
-	state = states.get(state_name).new(self)
+	state = states.get(state_name).new(self, state_name)
 	print("Changed State: %s" % state_name)
 	add_child(state)
 	if on_create:
 		on_create.call(state)
 
+func get_active_state_name():
+	if state == null:
+		return "<null>"
+	else:
+		return state.state_name

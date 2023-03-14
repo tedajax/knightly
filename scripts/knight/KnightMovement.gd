@@ -3,6 +3,13 @@ extends CharacterBody2D
 const SPEED = 140.0
 const JUMP_VELOCITY = -300.0
 
+@export var fall_blend_threshold: float = 20.0
+
+@export var ground_friction: float = 0.4
+
+@onready var _animator = $AnimatedSprite2D
+@onready var sprite_offset_x = _animator.transform.get_origin().x
+
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var facing = 1
@@ -14,12 +21,7 @@ var jump_request = false
 var walk_move_accel = 800.0
 var walk_max_speed = 140.0
 var walk_max_speed_decay = 400.0
-var walk_friction = 0.4
-
-@export var fall_blend_threshold: float = 20.0
-
-@onready var _animator = $AnimatedSprite2D
-@onready var sprite_offset_x = _animator.transform.get_origin().x
+var walk_friction = ground_friction
 
 var debug_font
 
@@ -45,14 +47,12 @@ func _input(event):
 		get_tree().quit()
 
 func _draw():
-	
 	draw_string(debug_font, Vector2(0, 0), "speed %0.2f" % velocity.x, HORIZONTAL_ALIGNMENT_LEFT, -1, 8)
+	draw_string(debug_font, Vector2(0, 10), "state: %s" % state_machine.get_active_state_name(), HORIZONTAL_ALIGNMENT_LEFT, -1, 8)
 
 func _process(delta):
-	
 	if Input.is_action_just_pressed("jump"):
 		jump_request = true
-		
 
 func _physics_process(delta):
 	if jump_request and not is_on_floor():
@@ -76,7 +76,7 @@ func do_jump_if_valid():
 func apply_gravity(delta):
 	if not is_on_floor():
 		velocity.y += gravity * delta
-		
+
 func apply_walk_accel(delta):
 	var change = walk_move_accel * input_x * delta
 
@@ -99,6 +99,9 @@ func apply_walk_accel(delta):
 		velocity.x =  min(velocity.x + decay, walk_max_speed)
 
 func apply_friction(delta):
+	if is_on_floor():
+		walk_friction = ground_friction
+
 	var fric_mag = -velocity.x * walk_friction
 	
 	if fric_mag > 0:
