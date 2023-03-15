@@ -14,6 +14,7 @@ func _ready():
 
 func _process(delta):
 	body.sync_sprite_facing()
+	body.try_attack("crouch_attack")
 
 	if body.input_y >= 0:
 		machine.change_state("crouch_transition", func(s): s.reverse())

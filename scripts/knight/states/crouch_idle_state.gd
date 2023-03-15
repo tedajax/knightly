@@ -5,12 +5,13 @@ func _ready():
 	play_anim("Crouch")
 
 func _process(delta):
+	body.sync_sprite_facing()
+	body.try_attack("crouch_attack")
 	body.velocity.x = 0
 	if body.input_y >= 0:
 		machine.change_state("crouch_transition", func(s): s.reverse())
 	if body.input_x:
 		machine.change_state("crouch_walk")
-	body.sync_sprite_facing()
 
 func _physics_process(delta):
 	body.apply_gravity(delta)

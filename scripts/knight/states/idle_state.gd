@@ -6,11 +6,13 @@ func _ready():
 	play_anim("Idle")
 
 func _process(delta):
+	body.sync_sprite_facing()
+	body.try_attack("attack")
+
 	if body.input_x:
 		machine.change_state("run")
 	if body.input_y < 0:
 		machine.change_state("crouch_transition")
-	body.sync_sprite_facing()
 
 func _physics_process(delta):
 	body.apply_gravity(delta)

@@ -22,7 +22,7 @@ fall_blend_threshold = 50.0
 texture_filter = 1
 position = Vector2(4, -26)
 sprite_frames = ExtResource("1_tuf6v")
-animation = &"Run"
+animation = &"Slide"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, -1)
@@ -44,3 +44,7 @@ position = Vector2(163, 146)
 position = Vector2(108, -43)
 shape = SubResource("RectangleShape2D_dop2r")
 debug_color = Color(0.745098, 0.462745, 0, 0.419608)
+
+[connection signal="animation_changed" from="CharacterBody2D/AnimatedSprite2D" to="CharacterBody2D" method="_on_animated_sprite_2d_animation_changed"]
+[connection signal="animation_finished" from="CharacterBody2D/AnimatedSprite2D" to="CharacterBody2D" method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="animation_looped" from="CharacterBody2D/AnimatedSprite2D" to="CharacterBody2D" method="_on_animated_sprite_2d_animation_looped"]

@@ -14,6 +14,7 @@ func _ready():
 
 func _process(delta):
 	body.sync_sprite_facing()
+	body.try_attack("attack")
 	
 	if not body.input_x:
 		machine.change_state("idle")

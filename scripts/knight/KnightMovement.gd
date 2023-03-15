@@ -17,6 +17,7 @@ var facing = 1
 var input_x = 0
 var input_y = 0
 var jump_request = false
+var attack_request = false
 
 var walk_move_accel = 800.0
 var walk_max_speed = 140.0
@@ -27,13 +28,15 @@ var debug_font
 
 var state_machine
 var states = {
-	"idle": IdleState,
-	"run": RunState,
-	"jump": JumpState,
-	"air": AirState,
-	"crouch_transition": CrouchTransitionState,
-	"crouch_idle": CrouchIdleState,
-	"crouch_walk": CrouchWalkState,
+	StringName("idle"): IdleState,
+	StringName("run"): RunState,
+	StringName("jump"): JumpState,
+	StringName("air"): AirState,
+	StringName("crouch_transition"): CrouchTransitionState,
+	StringName("crouch_idle"): CrouchIdleState,
+	StringName("crouch_walk"): CrouchWalkState,
+	StringName("crouch_attack"): CrouchAttackState,
+	StringName("attack"): AttackState,
 }
 func _ready():
 	debug_font = load("res://fonts/prstartk.ttf")
@@ -53,6 +56,10 @@ func _draw():
 func _process(delta):
 	if Input.is_action_just_pressed("jump"):
 		jump_request = true
+		
+	attack_request = false
+	if Input.is_action_just_pressed("attack"):
+		attack_request = true
 
 func _physics_process(delta):
 	if jump_request and not is_on_floor():
@@ -67,6 +74,7 @@ func _physics_process(delta):
 		facing = input_x
 		
 	queue_redraw()
+
 
 func do_jump_if_valid():
 	if jump_request and is_on_floor():
@@ -115,3 +123,17 @@ func sync_sprite_facing():
 	# really wish there was just a transform.set_origin call available...
 #	_animator.offset.x = sprite_offset_x * facing - sprite_offset_x
 	_animator.transform.origin.x = sprite_offset_x * facing
+
+func try_attack(attack: StringName):
+	if attack_request:
+		attack_request = false
+		state_machine.change_state(attack)
+
+func _on_animated_sprite_2d_animation_looped():
+	state_machine.on_anim_looped()
+
+func _on_animated_sprite_2d_animation_finished():
+	state_machine.on_anim_finished()
+
+func _on_animated_sprite_2d_animation_changed():
+	state_machine.on_anim_changed()
